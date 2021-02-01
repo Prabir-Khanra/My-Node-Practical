@@ -1,0 +1,2 @@
+Same data printed tow times in console (not in browser window).
+But i wanted to print only one time.
