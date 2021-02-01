@@ -1,0 +1,12 @@
+There are four type of stream.
+1. Readable (Stream which is used to read operation)
+2. Writeable (Stream which is used to write operation)
+3. Duplex (Stream which is used to read and write for both operation)
+4. Transform (A type of Duplex where the output is computed based on input)
+
+Each type of event is EventEmitter instance and throws several events at different instrance of time.
+For example,some commonly used events are :
+data (This event is fired when therre is data is available to read)
+end (This event is fired when therre is no more data to read)
+error (This event is fired when therre is any error receiving or writing data)
+finish (This event is fired when all the data has been flushed to underlying system)
